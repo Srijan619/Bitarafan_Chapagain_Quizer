@@ -17,7 +17,7 @@ public class AnswerFragment extends Fragment
     private IOnMessageSend mListener = null;
 
     public interface IOnMessageSend {
-        abstract void onMessageSend(String msg);
+        void onMessageSend(String msg);
     }
 
     public static AnswerFragment newInstance(){
@@ -34,7 +34,7 @@ public class AnswerFragment extends Fragment
             mListener = (IOnMessageSend)context;
         }
         else {
-            Toast.makeText(context, "App is malfunctioning", Toast.LENGTH_SHORT).show();
+            //TODO in case of listener not implemented what will happen
         }
     }
 
