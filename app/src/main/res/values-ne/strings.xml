@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">क्विजर</string>
+
+    <string name="btnTxt_animals">
+पशुहरू</string>
+    <string name="btnTxt_objects">
+वस्तुहरू</string>
+    <string name="btnTxt_colors">
+रंगहरू</string>
+    <string name="btnTxt_fruits">फलहरू</string>
+    <string name="btnExit">
+बाहिर निस्कनुहोस्</string>
+    <string-array name="animals_array">
+        <item>भेडा</item>
+        <item>
+बिरालो</item>
+        <item>
+कुकुर</item>
+        <item>
+ऊल</item>
+        <item>
+मकवानपुर</item>
+        <item>ध्रुवीय भालु</item>
+        <item>गाई</item>
+        <item>घोडा</item>
+        <item>
+सुँगुर</item>
+        <item>हात्ती</item>
+        <item>
+भाडा</item>
+        <item>जिराफ</item>
+        <item>
+हंस</item>
+        <item>हेन</item>
+        <item>
+फक्स</item>
+        <item>
+ब्वाँसो</item>
+        <item>एलक</item>
+        <item>
+माउस</item>
+        <item>
+भ्यागुतो</item>
+        <item>
+कंगारू</item>
+        <item>आँट</item>
+        <item>उल्लू</item>
+        <item>हिरण</item>
+        <item>
+कछुआ</item>
+        <item>
+मधुमक्खी</item>
+        <item>वोर्म</item>
+        <item>बंदर</item>
+        <item>
+खरगोश</item>
+        <item>हिप्पो</item>
+        <item>उड</item>
+        <item>मच्छर</item>
+        <item>तितली</item>
+    </string-array>
+    <string-array name="colors_array">
+        <item>रातो</item>
+        <item>
+सुन्तला</item>
+        <item>पहेंलो</item>
+        <item>हरियो</item>
+        <item>नीलो</item>
+        <item>गुलाबी</item>
+        <item>बैंगनी</item>
+        <item>
+खैरो</item>
+        <item>
+सेतो</item>
+        <item>कालो</item>
+        <item>सुन</item>
+        <item>
+चाँदी</item>
+        <item>क्रीम</item>
+        <item>सियान</item>
+    </string-array>
+    <string-array name="fruits_array">
+        <item>स्याऊ</item>
+        <item>सुन्तला</item>
+        <item>नाशपाती</item>
+        <item>आचरण</item>
+        <item>अंगूर</item>
+        <item>चेरी</item>
+        <item>म्यानारिन</item>
+        <item>गुवा</item>
+        <item>तरबूज</item>
+        <item>अनानास</item>
+        <item>
+केला</item>
+        <item>
+स्ट्रबेरी</item>
+        <item>पपयाया</item>
+        <item>नारियल</item>
+        <item>
+रास्पबेरी</item>
+        <item>
+नींबू</item>
+        <item>अनार
+</item>
+        <item>
+किवी</item>
+        <item>मंगो</item>
+        <item>दुरियन</item>
+    </string-array>
+    <string-array name="objects_array">
+        <item>
+कार</item>
+        <item>
+ट्रक</item>
+        <item>बल</item>
+        <item>साइकल</item>
+        <item>पुस्तक</item>
+        <item>बेलुन</item>
+        <item>कलम</item>
+        <item>फोन</item>
+        <item>खिलौना</item>
+        <item>गिटार</item>
+        <item>
+पियानो</item>
+        <item>तकिया</item>
+        <item>
+ओछ्यान</item>
+        <item>
+कालीन</item>
+        <item>तालिका</item>
+        <item>फ्रिज</item>
+        <item>
+शर्ट</item>
+        <item>
+पैंट</item>
+        <item>
+टोपी</item>
+    </string-array>
+
+</resources>

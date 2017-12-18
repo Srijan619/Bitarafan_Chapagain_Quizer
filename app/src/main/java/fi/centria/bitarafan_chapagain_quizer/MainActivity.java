@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends Activity implements View.OnClickListener{
+public class MainActivity extends Activity implements View.OnClickListener {
 
     private Button animals, objects, colors, fruits;
 
@@ -21,16 +21,18 @@ public class MainActivity extends Activity implements View.OnClickListener{
         animals.setOnClickListener(this);
         objects = findViewById(R.id.btn_objects);
         objects.setOnClickListener(this);
-        colors  = findViewById(R.id.btn_colors);
+        colors = findViewById(R.id.btn_colors);
         colors.setOnClickListener(this);
-        fruits  = findViewById(R.id.btn_fruits);
+        fruits = findViewById(R.id.btn_fruits);
         fruits.setOnClickListener(this);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -44,7 +46,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.btn_animals:
                 Toast.makeText(this, "getting animals resources", Toast.LENGTH_SHORT).show();
                 startTest("animals");
@@ -58,6 +60,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
             case R.id.btn_fruits:
                 startTest("fruits");
                 break;
+            default:
+                break;
         }
     }
 
@@ -65,7 +69,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     *
     *
     */
-    private void startTest(String category){
+    private void startTest(String category) {
         Intent i = new Intent();
         i.setClass(this, QuizerActivity.class);
         i.putExtra("category", category);
