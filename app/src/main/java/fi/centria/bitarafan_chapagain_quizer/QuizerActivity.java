@@ -33,6 +33,8 @@ public class QuizerActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quizer);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+
         init_wordsResourceIds();
         manager = getFragmentManager();
         picFrag = (PictureFragment) manager.findFragmentById(R.id.picFrag);
@@ -41,6 +43,7 @@ public class QuizerActivity extends Activity
         category = extra.getString("category");
         if (category != null)   fillListFromResources(category);
         setNewQuestion();
+
     }
 
     /**
