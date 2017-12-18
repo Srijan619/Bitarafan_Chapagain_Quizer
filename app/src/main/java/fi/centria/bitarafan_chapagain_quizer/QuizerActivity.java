@@ -22,7 +22,6 @@ public class QuizerActivity extends Activity
     AnswerFragment  ansFrag;
 
     String          category    = null;
-//    List<Drawable>  pictures    = null;
     List<String>    words       = null;
     String          answerWord  = null;
     List<String>    choices     = null;
