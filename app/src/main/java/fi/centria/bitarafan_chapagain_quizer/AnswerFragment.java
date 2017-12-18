@@ -3,15 +3,20 @@ package fi.centria.bitarafan_chapagain_quizer;
 import android.content.Context;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import java.util.List;
+
 
 public class AnswerFragment extends Fragment
                 implements View.OnClickListener
 {
+    final String TAG = "quizerTAGS";
+    private Button ansBtn_1, ansBtn_2, ansBtn_3, ansBtn_4;
     private IOnAnswerPicked mListener = null;
 
     public interface IOnAnswerPicked {
@@ -40,11 +45,23 @@ public class AnswerFragment extends Fragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View fv = inflater.inflate(R.layout.fragment_answer, container, false);
-        (fv.findViewById(R.id.answ_1)).setOnClickListener(this);
-        (fv.findViewById(R.id.answ_2)).setOnClickListener(this);
-        (fv.findViewById(R.id.answ_3)).setOnClickListener(this);
-        (fv.findViewById(R.id.answ_4)).setOnClickListener(this);
+        ansBtn_1 = fv.findViewById(R.id.answ_1);
+        ansBtn_1.setOnClickListener(this);
+        ansBtn_2 = (fv.findViewById(R.id.answ_2));
+        ansBtn_2.setOnClickListener(this);
+        ansBtn_3 = (fv.findViewById(R.id.answ_3));
+        ansBtn_3.setOnClickListener(this);
+        ansBtn_4 = (fv.findViewById(R.id.answ_4));
+        ansBtn_4.setOnClickListener(this);
         return fv;
+    }
+
+    public void setAnswers(List<String> ans){
+        ansBtn_1.setText(ans.get(0));
+        ansBtn_2.setText(ans.get(1));
+        ansBtn_3.setText(ans.get(2));
+        ansBtn_4.setText(ans.get(3));
+        Log.d(TAG, "setAnswers: CHOICES SET");
     }
 
     @Override

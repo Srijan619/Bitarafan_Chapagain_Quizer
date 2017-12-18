@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
@@ -15,9 +16,13 @@ public class MainActivity extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         animals = findViewById(R.id.btn_animals);
+        animals.setOnClickListener(this);
         objects = findViewById(R.id.btn_objects);
+        objects.setOnClickListener(this);
         colors  = findViewById(R.id.btn_colors);
+        colors.setOnClickListener(this);
         fruits  = findViewById(R.id.btn_fruits);
+        fruits.setOnClickListener(this);
     }
 
 
@@ -25,6 +30,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_animals:
+                Toast.makeText(this, "getting animals resources", Toast.LENGTH_SHORT).show();
                 startTest("animals");
                 break;
             case R.id.btn_objects:
