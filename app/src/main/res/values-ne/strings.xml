@@ -1,15 +1,11 @@
 <resources>
     <string name="app_name">क्विजर</string>
 
-    <string name="btnTxt_animals">
-पशुहरू</string>
-    <string name="btnTxt_objects">
-वस्तुहरू</string>
-    <string name="btnTxt_colors">
-रंगहरू</string>
+    <string name="btnTxt_animals">पशुहरू</string>
+    <string name="btnTxt_objects">वस्तुहरू</string>
+    <string name="btnTxt_colors">रंगहरू</string>
     <string name="btnTxt_fruits">फलहरू</string>
-    <string name="btnExit">
-बाहिर निस्कनुहोस्</string>
+    <string name="btnExit">बाहिर निस्कनुहोस्</string>
     <string-array name="animals_array">
         <item>भेडा</item>
         <item>

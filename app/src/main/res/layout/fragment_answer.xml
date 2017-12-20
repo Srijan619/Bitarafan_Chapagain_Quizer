@@ -1,8 +1,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
     tools:context="fi.centria.bitarafan_chapagain_quizer.AnswerFragment">
 
     <LinearLayout
@@ -13,14 +14,19 @@
 
         <Button
             android:id="@+id/answ_1"
+            style="@android:style/Widget.Holo.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_bright" />
+
         <Button
             android:id="@+id/answ_2"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_orange_light" />
     </LinearLayout>
 
     <LinearLayout
@@ -31,14 +37,19 @@
 
         <Button
             android:id="@+id/answ_3"
+            style="@android:style/Widget.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_light" />
+
         <Button
             android:id="@+id/answ_4"
+            style="@android:style/Widget.Holo.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light" />
     </LinearLayout>
 
 

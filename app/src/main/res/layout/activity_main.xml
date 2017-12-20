@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:padding="@dimen/padd"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="fi.centria.bitarafan_chapagain_quizer.MainActivity"
@@ -15,7 +16,7 @@
 
         <Button
             android:id="@+id/btn_animals"
-            style="?android:attr/buttonBarButtonStyle"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -23,7 +24,7 @@
 
         <Button
             android:id="@+id/btn_objects"
-            style="?android:attr/buttonBarButtonStyle"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -38,18 +39,19 @@
 
         <Button
             android:id="@+id/btn_colors"
-            android:text="@string/btnTxt_colors"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            style="?android:attr/buttonBarButtonStyle"/>
+            android:text="@string/btnTxt_colors" />
+
         <Button
             android:id="@+id/btn_fruits"
-            android:text="@string/btnTxt_fruits"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            style="?android:attr/buttonBarButtonStyle"/>
+            android:text="@string/btnTxt_fruits" />
     </LinearLayout>
 
 </LinearLayout>
