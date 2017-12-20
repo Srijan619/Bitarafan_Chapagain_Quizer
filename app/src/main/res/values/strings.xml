@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">Quizer</string>
 
-    <string name="btnTxt_animals">animals</string>
-    <string name="btnTxt_objects">objects</string>
-    <string name="btnTxt_colors">colors</string>
-    <string name="btnTxt_fruits">fruits</string>
+    <string name="btnTxt_animals">Animals</string>
+    <string name="btnTxt_objects">Objects</string>
+    <string name="btnTxt_colors">Colors</string>
+    <string name="btnTxt_fruits">Fruits</string>
     <string name="btnExit">Exit</string>
+
     <string-array name="animals_array">
         <item>sheep</item>
         <item>cat</item>

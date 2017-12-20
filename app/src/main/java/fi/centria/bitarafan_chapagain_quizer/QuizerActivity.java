@@ -105,11 +105,11 @@ public class QuizerActivity extends Activity
 
         wordsBasedOnCategory.put("colors",
                 getResources().getIdentifier("colors_array",
-                        "string", getPackageName()));
+                        "array", getPackageName()));
 
         wordsBasedOnCategory.put("fruits",
                 getResources().getIdentifier("fruits_array",
-                        "string", getPackageName()));
+                        "array", getPackageName()));
     }
 
     /**

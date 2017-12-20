@@ -15,18 +15,19 @@
 
         <Button
             android:id="@+id/btn_animals"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="@string/btnTxt_animals"
             android:layout_weight="1"
-            style="?android:attr/buttonBarButtonStyle"/>
+            android:text="@string/btnTxt_animals" />
+
         <Button
             android:id="@+id/btn_objects"
-            android:text="@string/btnTxt_objects"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            style="?android:attr/buttonBarButtonStyle"/>
+            android:text="@string/btnTxt_objects" />
     </LinearLayout>
 
     <LinearLayout
