@@ -17,7 +17,9 @@ public class PictureFragment extends Fragment {
         // Required empty public constructor
     }
 
-    @Nullable
+    public static PictureFragment newInstance(){
+        return new PictureFragment();
+    }
     @Override
     public View onCreateView(LayoutInflater inflater,
                     @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
@@ -36,4 +38,5 @@ public class PictureFragment extends Fragment {
     public void changePicture(int drawable_id){
         ques_picture.setImageDrawable(getResources().getDrawable(drawable_id));
     }
+
 }
