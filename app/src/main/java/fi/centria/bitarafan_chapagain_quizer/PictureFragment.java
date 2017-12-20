@@ -38,5 +38,4 @@ public class PictureFragment extends Fragment {
     public void changePicture(int drawable_id){
         ques_picture.setImageDrawable(getResources().getDrawable(drawable_id));
     }
-
 }

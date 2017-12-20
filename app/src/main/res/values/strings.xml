@@ -7,13 +7,110 @@
     <string name="btnTxt_fruits">Fruits</string>
     <string name="btnExit">Exit</string>
 
+    <string name="animals_sheep">sheep</string>
+    <string name="animals_cat">cat</string>
+    <string name="animals_dog">dog</string>
+    <string name="animals_camel">camel</string>
+    <string name="animals_crocodile">crocodile</string>
+    <string name="animals_polarbear">polar bear</string>
+    <string name="animals_cow">cow</string>
+    <string name="animals_horse">horse</string>
+    <string name="animals_pig">pig</string>
+    <string name="animals_elephant">elephant</string>
+    <string name="animals_bear">bear</string>
+    <string name="animals_giraffe">giraffe</string>
+    <string name="animals_goose">goose</string>
+    <string name="animals_hen">hen</string>
+    <string name="animals_fox">fox</string>
+    <string name="animals_wolf">wolf</string>
+    <string name="animals_elk">elk</string>
+    <string name="animals_mouse">mouse</string>
+    <string name="animals_frog">frog</string>
+    <string name="animals_kangaroo">kangaroo</string>
+    <string name="animals_ant">ant</string>
+    <string name="animals_owl">owl</string>
+    <string name="animals_deer">deer</string>
+    <string name="animals_turtle">turtle</string>
+    <string name="animals_bee">bee</string>
+    <string name="animals_worm">worm</string>
+    <string name="animals_monkey">monkey</string>
+    <string name="animals_rabbit">rabbit</string>
+    <string name="animals_hippo">hippo</string>
+    <string name="animals_fly">fly</string>
+    <string name="animals_mosquito">mosquito</string>
+    <string name="animals_butterfly">butterfly</string>
+
+    <string name="colors_red">red</string>
+    <string name="colors_orange">orange</string>
+    <string name="colors_yellow">yellow</string>
+    <string name="colors_green">green</string>
+    <string name="colors_blue">blue</string>
+    <string name="colors_pink">pink</string>
+    <string name="colors_purple">purple</string>
+    <string name="colors_brown">brown</string>
+    <string name="colors_white">white</string>
+    <string name="colors_black">black</string>
+    <string name="colors_gold">gold</string>
+    <string name="colors_silver">silver</string>
+    <string name="colors_cream">cream</string>
+    <string name="colors_">cyan</string>
+
+    <string name="fruits_apple">apple</string>
+    <string name="fruits_orange">orange</string>
+    <string name="fruits_pear">pear</string>
+    <string name="fruits_peach">peach</string>
+    <string name="fruits_grapefruit">grapefruit</string>
+    <string name="fruits_date">date</string>
+    <string name="fruits_apricot">apricot</string>
+    <string name="fruits_passionfruit">passionfruit</string>
+    <string name="fruits_cherry">cherry</string>
+    <string name="fruits_grapes">grapes</string>
+    <string name="fruits_pulm">pulm</string>
+    <string name="fruits_mandarine">mandarine</string>
+    <string name="fruits_guava">guava</string>
+    <string name="fruits_watermelon">watermelon</string>
+    <string name="fruits_melon">melon</string>
+    <string name="fruits_pineapple">pineapple</string>
+    <string name="fruits_fig">fig</string>
+    <string name="fruits_banana">banana</string>
+    <string name="fruits_strawberry">strawberry</string>
+    <string name="fruits_papaya">papaya</string>
+    <string name="fruits_coconut">coconut</string>
+    <string name="fruits_raspberry">raspberry</string>
+    <string name="fruits_lemon">lemon</string>
+    <string name="fruits_blueberry">blueberry</string>
+    <string name="fruits_pomegranate">pomegranate</string>
+    <string name="fruits_kiwi">kiwi</string>
+    <string name="fruits_mango">mango</string>
+    <string name="fruits_durian">durian</string>
+
+    <string name="objects_car">car</string>
+    <string name="objects_truck">truck</string>
+    <string name="objects_ball">ball</string>
+    <string name="objects_bicycle">bicycle</string>
+    <string name="objects_book">book</string>
+    <string name="objects_balloon">balloon</string>
+    <string name="objects_pen">pen</string>
+    <string name="objects_phone">phone</string>
+    <string name="objects_toy">toy</string>
+    <string name="objects_piano">piano</string>
+    <string name="objects_pillow">pillow</string>
+    <string name="objects_bed">bed</string>
+    <string name="objects_carpet">carpet</string>
+    <string name="objects_table">table</string>
+    <string name="objects_fridge">fridge</string>
+    <string name="objects_shirt">shirt</string>
+    <string name="objects_pants">pants</string>
+    <string name="objects_hat">hat</string>
+
+
     <string-array name="animals_array">
         <item>sheep</item>
         <item>cat</item>
         <item>dog</item>
         <item>camel</item>
         <item>crocodile</item>
-        <item>polar bear</item>
+        <item>polarbear</item>
         <item>cow</item>
         <item>horse</item>
         <item>pig</item>

@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bitarafan_Chapagain_Quizer.iml" filepath="$PROJECT_DIR$/Bitarafan_Chapagain_Quizer.iml" />
-      <module fileurl="file://C:\Users\chaps\Documents\GitHub\Bitarafan_Chapagain_Quizer\Bitarafan_Chapagain_Quizer.iml" filepath="C:\Users\chaps\Documents\GitHub\Bitarafan_Chapagain_Quizer\Bitarafan_Chapagain_Quizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\chaps\Documents\GitHub\Bitarafan_Chapagain_Quizer\app\app.iml" filepath="C:\Users\chaps\Documents\GitHub\Bitarafan_Chapagain_Quizer\app\app.iml" />
     </modules>
   </component>
 </project>
