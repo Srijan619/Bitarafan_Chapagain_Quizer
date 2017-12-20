@@ -33,18 +33,24 @@ public class QuestionGenerator {
      *  If the word hasn't been asked previously
      *  then submit for question else pick a new word.
      */
-    public List<String> questionToAsk(){
-        List<String> newQuestion = new ArrayList<>();
-        String       wordToAsk;
-        do { wordToAsk = getRandomWord();}
-        while (wordsAsked.contains(wordToAsk) && wordsAsked.size() < NumberOfWords);
-        newQuestion.add(wordToAsk);     //index 0 of newQuestion List contains the answer to question
-        wordsAsked.add(wordToAsk);
-        while (newQuestion.size() < 4) {
-            do { wordToAsk = getRandomWord(); } while (newQuestion.contains(wordToAsk));
-            newQuestion.add(wordToAsk);
-        }
-        return newQuestion;
+    public List<String> questionToAsk() {
+        if (wordsAsked.size() < NumberOfWords){
+            List<String> newQuestion = new ArrayList<>();
+            String wordToAsk;
+            do {
+                wordToAsk = getRandomWord();
+            }
+            while (wordsAsked.contains(wordToAsk));
+            newQuestion.add(wordToAsk);     //index 0 of newQuestion List contains the answer to question
+            wordsAsked.add(wordToAsk);
+            while (newQuestion.size() < 4) {
+                do {
+                    wordToAsk = getRandomWord();
+                } while (newQuestion.contains(wordToAsk));
+                newQuestion.add(wordToAsk);
+            }
+            return newQuestion;
+        } else return null;
     }
 
 //    private String getStringLocale(String engWord){

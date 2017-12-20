@@ -46,15 +46,16 @@ public class QuizerActivity extends Activity
 
     private void setNewQuestion(){
         choices = questionGenerator.questionToAsk();
-        int pic_ID = getResources().getIdentifier(category + "_" + choices.get(0),
-                "drawable", getPackageName());
-        answerWord = getStringLocale(choices.get(0));
-        Log.d(TAG, "setNewQuestion: " + choices.get(0));
-        Collections.shuffle(choices);
-        ansFrag.setAnswers(localizeChoices(choices));
-        Log.d(TAG, "setNewQuestion: fetched PIC_ID: " + pic_ID);
-        if (pic_ID != 0)
-            picFrag.changePicture(pic_ID);
+        if (choices != null){
+            picFrag.changePicture(GetIdentifier(category + "_" + choices.get(0),"drawable"));
+            answerWord = getStringLocale(choices.get(0));
+            Log.d(TAG, "setNewQuestion: " + choices.get(0));
+            Collections.shuffle(choices);
+            ansFrag.setAnswers(localizeChoices(choices));
+        }   else {
+            picFrag.changePicture(GetIdentifier("stop", "drawable"));
+            ansFrag.setAnswers(null);
+        }
     }
 
     private List<String> localizeChoices(List<String> choices){

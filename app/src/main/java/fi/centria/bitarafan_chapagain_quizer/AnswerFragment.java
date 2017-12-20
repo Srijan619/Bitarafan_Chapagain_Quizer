@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -57,11 +58,13 @@ public class AnswerFragment extends Fragment
     }
 
     public void setAnswers(List<String> ans){
-        ansBtn_1.setText(ans.get(0));
-        ansBtn_2.setText(ans.get(1));
-        ansBtn_3.setText(ans.get(2));
-        ansBtn_4.setText(ans.get(3));
-        Log.d(TAG, "setAnswers: CHOICES SET");
+        if (ans != null){
+            ansBtn_1.setText(ans.get(0));
+            ansBtn_2.setText(ans.get(1));
+            ansBtn_3.setText(ans.get(2));
+            ansBtn_4.setText(ans.get(3));
+        }
+        else Toast.makeText(getActivity(), "No questions left!", Toast.LENGTH_SHORT).show();
     }
 
     @Override
