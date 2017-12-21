@@ -14,19 +14,17 @@
 
         <Button
             android:id="@+id/answ_1"
-            style="@android:style/Widget.Holo.Button.Inset"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_blue_bright" />
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/answ_2"
-            style="@android:style/Widget.Button.Inset"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_orange_light" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
@@ -37,19 +35,17 @@
 
         <Button
             android:id="@+id/answ_3"
-            style="@android:style/Widget.Button.Inset"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_red_light" />
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/answ_4"
-            style="@android:style/Widget.Holo.Button.Inset"
+            style="@android:style/Widget.Material.Light.Button.Inset"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_green_light" />
+            android:layout_weight="1" />
     </LinearLayout>
 
 

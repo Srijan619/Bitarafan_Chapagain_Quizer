@@ -3,11 +3,11 @@ package fi.centria.bitarafan_chapagain_quizer;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -48,28 +48,23 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_animals:
-                Toast.makeText(this, "getting animals resources", Toast.LENGTH_SHORT).show();
-                startTest("animals");
+                startIntest("animals");
                 break;
             case R.id.btn_objects:
-                startTest("objects");
+                startIntest("objects");
                 break;
             case R.id.btn_colors:
-                startTest("colors");
+                startIntest("colors");
                 break;
             case R.id.btn_fruits:
-                startTest("fruits");
+                startIntest("fruits");
                 break;
             default:
                 break;
         }
     }
 
-    /*
-    *
-    *
-    */
-    private void startTest(String category) {
+    private void startIntest(String category) {
         Intent i = new Intent();
         i.setClass(this, QuizerActivity.class);
         i.putExtra("category", category);

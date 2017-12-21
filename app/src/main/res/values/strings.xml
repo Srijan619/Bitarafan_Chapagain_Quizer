@@ -94,7 +94,7 @@
     <string name="objects_shirt">shirt</string>
     <string name="objects_pants">pants</string>
     <string name="objects_hat">hat</string>
-
+    <string name="objects_guitar">guitar</string>
 
     <string-array name="animals_array">
         <item>sheep</item>
@@ -153,7 +153,7 @@
         <item>peach</item>
         <item>grapefruit</item>
         <item>cherry</item>
-        <item>mandarine</item>
+        <item>mandarin</item>
         <item>guava</item>
         <item>watermelon</item>
         <item>pineapple</item>
@@ -163,6 +163,7 @@
         <item>coconut</item>
         <item>raspberry</item>
         <item>lemon</item>
+        <item>fig</item>
         <item>pomegranate</item>
         <item>kiwi</item>
         <item>mango</item>

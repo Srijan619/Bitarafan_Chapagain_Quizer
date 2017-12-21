@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مسابقه</string>
+
+    <string name="btnTxt_animals">حیوانات</string>
+    <string name="btnTxt_objects">اشیاء</string>
+    <string name="btnTxt_colors">رنگ ها</string>
+    <string name="btnTxt_fruits">میوه ها</string>
+    <string name="btnExit">خروج</string>
+
+    <string name="animals_sheep">گوسفند</string>
+    <string name="animals_cat">گربه</string>
+    <string name="animals_dog"></string>
+    <string name="animals_camel">سگ</string>
+    <string name="animals_crocodile">تمساح</string>
+    <string name="animals_polarbear">خرس قطبی</string>
+    <string name="animals_cow">گاو</string>
+    <string name="animals_horse">اسب</string>
+    <string name="animals_pig">خوک</string>
+    <string name="animals_elephant">فیل</string>
+    <string name="animals_bear">خرس</string>
+    <string name="animals_giraffe">زرافه</string>
+    <string name="animals_goose">غاز</string>
+    <string name="animals_hen">خروس</string>
+    <string name="animals_fox">روباه</string>
+    <string name="animals_wolf">گرگ</string>
+    <string name="animals_elk">گوزن</string>
+    <string name="animals_mouse">ماوس</string>
+    <string name="animals_frog">قورباغه</string>
+    <string name="animals_kangaroo">کانگورو</string>
+    <string name="animals_ant">مورچه</string>
+    <string name="animals_owl">جغد</string>
+    <string name="animals_deer">گوزن</string>
+    <string name="animals_turtle">لاک پشت</string>
+    <string name="animals_bee">زنبور عسل</string>
+    <string name="animals_worm">کرم</string>
+    <string name="animals_monkey">میمون</string>
+    <string name="animals_rabbit">خرگوش</string>
+    <string name="animals_hippo">اسب آبی</string>
+    <string name="animals_fly">پرواز</string>
+    <string name="animals_mosquito">پشه</string>
+    <string name="animals_butterfly">پروانه</string>
+
+    <string name="colors_red">قرمز</string>
+    <string name="colors_orange">نارنجی</string>
+    <string name="colors_yellow">رنگ زرد</string>
+    <string name="colors_green">سبز</string>
+    <string name="colors_blue">آبی</string>
+    <string name="colors_pink">صورتی</string>
+    <string name="colors_purple">بنفش</string>
+    <string name="colors_brown">قهوه ای</string>
+    <string name="colors_white">سفید</string>
+    <string name="colors_black">سیاه</string>
+    <string name="colors_gold">طلا</string>
+    <string name="colors_silver">نقره</string>
+    <string name="colors_cream">کرم</string>
+    <string name="colors_cyan">فیروزه ای</string>
+
+    <string name="fruits_apple">سیب</string>
+    <string name="fruits_orange">پرتغال</string>
+    <string name="fruits_pear">گلابی</string>
+    <string name="fruits_peach">هلو</string>
+    <string name="fruits_grapefruit">گریپ فروت</string>
+    <string name="fruits_date">خرما</string>
+    <string name="fruits_apricot">زردآلو</string>
+    <string name="fruits_passionfruit">میوه بهشتی</string>
+    <string name="fruits_cherry">گیلاس</string>
+    <string name="fruits_grapes">انگور</string>
+    <string name="fruits_plum">آلو</string>
+    <string name="fruits_mandarin">نارنگی</string>
+    <string name="fruits_guava">گواوا</string>
+    <string name="fruits_watermelon">هندوانه</string>
+    <string name="fruits_melon">خربزه</string>
+    <string name="fruits_pineapple">آناناس</string>
+    <string name="fruits_fig">انجیر</string>
+    <string name="fruits_banana">موز</string>
+    <string name="fruits_strawberry">توت فرنگی</string>
+    <string name="fruits_papaya">پاپایا</string>
+    <string name="fruits_coconut">نارگیل</string>
+    <string name="fruits_raspberry">تمشک</string>
+    <string name="fruits_lemon">لیمو</string>
+    <string name="fruits_blueberry">زغال اخته</string>
+    <string name="fruits_pomegranate">انار</string>
+    <string name="fruits_kiwi">کیوی</string>
+    <string name="fruits_mango">مانگو</string>
+    <string name="fruits_durian">دوریان</string>
+
+    <string name="objects_car">ماشین</string>
+    <string name="objects_truck">کامیون</string>
+    <string name="objects_ball">توپ</string>
+    <string name="objects_bicycle">دوچرخه</string>
+    <string name="objects_book">کتاب</string>
+    <string name="objects_balloon">بالون</string>
+    <string name="objects_pen">خودکار</string>
+    <string name="objects_phone">تلفن</string>
+    <string name="objects_toy">اسباب بازی</string>
+    <string name="objects_piano">پیانو</string>
+    <string name="objects_pillow">بالش</string>
+    <string name="objects_bed">بستر</string>
+    <string name="objects_carpet">فرش</string>
+    <string name="objects_table">میز</string>
+    <string name="objects_fridge">یخچال</string>
+    <string name="objects_shirt">پیراهن</string>
+    <string name="objects_pants">شلوار</string>
+    <string name="objects_hat">کلاه</string>
+    <string name="objects_guitar">گیتار</string>
+
+    <string-array name="animals_array">
+        <item>sheep</item>
+        <item>cat</item>
+        <item>dog</item>
+        <item>camel</item>
+        <item>crocodile</item>
+        <item>polarbear</item>
+        <item>cow</item>
+        <item>horse</item>
+        <item>pig</item>
+        <item>elephant</item>
+        <item>bear</item>
+        <item>giraffe</item>
+        <item>goose</item>
+        <item>hen</item>
+        <item>fox</item>
+        <item>wolf</item>
+        <item>elk</item>
+        <item>mouse</item>
+        <item>frog</item>
+        <item>kangaroo</item>
+        <item>ant</item>
+        <item>owl</item>
+        <item>deer</item>
+        <item>turtle</item>
+        <item>bee</item>
+        <item>worm</item>
+        <item>monkey</item>
+        <item>rabbit</item>
+        <item>hippo</item>
+        <item>fly</item>
+        <item>mosquito</item>
+        <item>butterfly</item>
+    </string-array>
+    <string-array name="colors_array">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>brown</item>
+        <item>white</item>
+        <item>black</item>
+        <item>gold</item>
+        <item>silver</item>
+        <item>cream</item>
+        <item>cyan</item>
+    </string-array>
+    <string-array name="fruits_array">
+        <item>apple</item>
+        <item>orange</item>
+        <item>pear</item>
+        <item>peach</item>
+        <item>grapefruit</item>
+        <item>cherry</item>
+        <item>mandarin</item>
+        <item>guava</item>
+        <item>watermelon</item>
+        <item>pineapple</item>
+        <item>banana</item>
+        <item>strawberry</item>
+        <item>papaya</item>
+        <item>coconut</item>
+        <item>raspberry</item>
+        <item>lemon</item>
+        <item>fig</item>
+        <item>pomegranate</item>
+        <item>kiwi</item>
+        <item>mango</item>
+        <item>durian</item>
+    </string-array>
+    <string-array name="objects_array">
+        <item>car</item>
+        <item>truck</item>
+        <item>ball</item>
+        <item>bicycle</item>
+        <item>book</item>
+        <item>balloon</item>
+        <item>pen</item>
+        <item>phone</item>
+        <item>toy</item>
+        <item>guitar</item>
+        <item>piano</item>
+        <item>pillow</item>
+        <item>bed</item>
+        <item>carpet</item>
+        <item>table</item>
+        <item>fridge</item>
+        <item>shirt</item>
+        <item>pants</item>
+        <item>hat</item>
+    </string-array>
+</resources>
