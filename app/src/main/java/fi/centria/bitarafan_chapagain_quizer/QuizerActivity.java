@@ -7,6 +7,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,17 +18,13 @@ public class QuizerActivity extends Activity
 {
     final String TAG = "quizerTAGS";
 
-    FragmentManager manager;
-    PictureFragment picFrag;
-    AnswerFragment  ansFrag;
-
-    String          category    = null;
-    List<String>    words       = null;
-    String          answerWord  = null;
-    List<String>    choices     = null;
-    Map<String, Integer> wordsBasedOnCategory = null;
-
-
+    FragmentManager     manager;
+    PictureFragment     picFrag;
+    AnswerFragment      ansFrag;
+    QuestionGenerator   questionGenerator;
+    String              category    = null;
+    String              answerWord  = null;
+    List<String>        choices     = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,97 +32,56 @@ public class QuizerActivity extends Activity
         setContentView(R.layout.activity_quizer);
         getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        init_wordsResourceIds();
         manager = getFragmentManager();
         picFrag = (PictureFragment) manager.findFragmentById(R.id.picFrag);
         ansFrag = (AnswerFragment)  manager.findFragmentById(R.id.ansFrag);
         Bundle extra = getIntent().getExtras();
         category = extra.getString("category");
-        if (category != null)   fillListFromResources(category);
+        if (category != null){
+            questionGenerator = new QuestionGenerator(getApplicationContext(), category);
+        }
         setNewQuestion();
 
-    }
-
-    /**
-     * returns a list with 4 strings
-     * */
-    private void fillChoicesList(){
-        choices = new ArrayList<>();
-        String choice;
-        while(choices.size() <= 4){
-            choice = getRandomWord();
-            if (!choices.contains(choice))
-                choices.add(choice);
-        }
     }
 
     private void setNewQuestion(){
-        fillChoicesList();
-        Log.d(TAG, "setNewQuestion: Choices made");
-
-        answerWord = choices.get(new Random().nextInt(4));
-        ansFrag.setAnswers(choices);
-        int pic_ID = getResources().getIdentifier(category + "_" + answerWord,
-                "drawable", getPackageName());
-        Log.d(TAG, "setNewQuestion: fetched PIC_ID: " + pic_ID);
-        if (pic_ID != 0)
-            picFrag.changePicture(pic_ID);
+        choices = questionGenerator.questionToAsk();
+        if (choices != null){
+            picFrag.changePicture(GetIdentifier(category + "_" + choices.get(0),"drawable"));
+            answerWord = getStringLocale(choices.get(0));
+            Log.d(TAG, "setNewQuestion: " + choices.get(0));
+            Collections.shuffle(choices);
+            ansFrag.setAnswers(localizeChoices(choices));
+        }   else {
+            picFrag.changePicture(GetIdentifier("stop", "drawable"));
+            ansFrag.setAnswers(null);
+        }
     }
 
-    private boolean checkAnswer(String rcvdAnsw){
-        if (rcvdAnsw == answerWord) return true;
-
-        return false;
+    private List<String> localizeChoices(List<String> choices){
+        List<String> localChoices = new ArrayList<>();
+        for (String s: choices)
+            localChoices.add(getStringLocale(s));
+        return localChoices;
     }
+
+    private String getStringLocale(String engWord){
+        return getResources().getString(GetIdentifier(category+"_"+engWord, "string"));
+    }
+
+    private int GetIdentifier(String name, String type){
+        return getResources().getIdentifier(name, type, getPackageName());
+    }
+
+//    private boolean checkAnswer(String rcvdAnsw){
+//        if (rcvdAnsw == answerWord) return true;
+//        return false;
+//    }
 
     @Override
     public void onAnswerPicked(String msg) {
-        if(checkAnswer(msg)) Toast.makeText(this, "Right", Toast.LENGTH_SHORT).show();
+//        if(checkAnswer(msg))
         setNewQuestion();
-    }
-
-    private String getRandomWord(){
-        return words.get(new Random().nextInt(words.size()));
-    }
-
-    /**
-     * This method assigns identifier of string arrays found in string resource file
-     * to the key defined by categories (key = category, Value = resource identifier)
-     * */
-    private void init_wordsResourceIds() {
-        wordsBasedOnCategory = new HashMap<>();
-
-        wordsBasedOnCategory.put("animals",
-                getResources().getIdentifier("animals_array",
-                        "array", getPackageName()));
-
-        wordsBasedOnCategory.put("objects",
-                getResources().getIdentifier("objects_array",
-                        "array", getPackageName()));
-
-        wordsBasedOnCategory.put("colors",
-                getResources().getIdentifier("colors_array",
-                        "array", getPackageName()));
-
-        wordsBasedOnCategory.put("fruits",
-                getResources().getIdentifier("fruits_array",
-                        "array", getPackageName()));
-    }
-
-    /**
-     * This method dynamically  assigns pictures and words based on the category
-     * given from intent bundle (chosen category)
-     * */
-    private void fillListFromResources(String category){
-//        pictures = new ArrayList<>();
-        words = new ArrayList<>();
-
-        for (String word: getResources().getStringArray(wordsBasedOnCategory.get(category))) {
-            words.add(word);
-//            pictures.add(getResources().getDrawable(getResources()
-//                    .getIdentifier(category + "_" + word,
-//                            "drawable", getPackageName())));
-        }
     }
 
 }
