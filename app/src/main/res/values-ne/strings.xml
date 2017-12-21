@@ -6,131 +6,101 @@
     <string name="btnTxt_colors">रंगहरू</string>
     <string name="btnTxt_fruits">फलहरू</string>
     <string name="btnExit">बाहिर निस्कनुहोस्</string>
+
+
     <string-array name="animals_array">
-        <item>भेडा</item>
-        <item>
-बिरालो</item>
-        <item>
-कुकुर</item>
-        <item>
-ऊल</item>
-        <item>
-मकवानपुर</item>
-        <item>ध्रुवीय भालु</item>
-        <item>गाई</item>
-        <item>घोडा</item>
-        <item>
-सुँगुर</item>
-        <item>हात्ती</item>
-        <item>
-भाडा</item>
-        <item>जिराफ</item>
-        <item>
-हंस</item>
-        <item>हेन</item>
-        <item>
-फक्स</item>
-        <item>
-ब्वाँसो</item>
-        <item>एलक</item>
-        <item>
-माउस</item>
-        <item>
-भ्यागुतो</item>
-        <item>
-कंगारू</item>
-        <item>आँट</item>
-        <item>उल्लू</item>
-        <item>हिरण</item>
-        <item>
-कछुआ</item>
-        <item>
-मधुमक्खी</item>
-        <item>वोर्म</item>
-        <item>बंदर</item>
-        <item>
-खरगोश</item>
-        <item>हिप्पो</item>
-        <item>उड</item>
-        <item>मच्छर</item>
-        <item>तितली</item>
+        <item>sheep</item>
+        <item>cat</item>
+        <item>dog</item>
+        <item>camel</item>
+        <item>crocodile</item>
+        <item>polarbear</item>
+        <item>cow</item>
+        <item>horse</item>
+        <item>pig</item>
+        <item>elephant</item>
+        <item>bear</item>
+        <item>giraffe</item>
+        <item>goose</item>
+        <item>hen</item>
+        <item>fox</item>
+        <item>wolf</item>
+        <item>elk</item>
+        <item>mouse</item>
+        <item>frog</item>
+        <item>kangaroo</item>
+        <item>ant</item>
+        <item>owl</item>
+        <item>deer</item>
+        <item>turtle</item>
+        <item>bee</item>
+        <item>worm</item>
+        <item>monkey</item>
+        <item>rabbit</item>
+        <item>hippo</item>
+        <item>fly</item>
+        <item>mosquito</item>
+        <item>butterfly</item>
     </string-array>
     <string-array name="colors_array">
-        <item>रातो</item>
-        <item>
-सुन्तला</item>
-        <item>पहेंलो</item>
-        <item>हरियो</item>
-        <item>नीलो</item>
-        <item>गुलाबी</item>
-        <item>बैंगनी</item>
-        <item>
-खैरो</item>
-        <item>
-सेतो</item>
-        <item>कालो</item>
-        <item>सुन</item>
-        <item>
-चाँदी</item>
-        <item>क्रीम</item>
-        <item>सियान</item>
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>brown</item>
+        <item>white</item>
+        <item>black</item>
+        <item>gold</item>
+        <item>silver</item>
+        <item>cream</item>
+        <item>cyan</item>
     </string-array>
     <string-array name="fruits_array">
-        <item>स्याऊ</item>
-        <item>सुन्तला</item>
-        <item>नाशपाती</item>
-        <item>आचरण</item>
-        <item>अंगूर</item>
-        <item>चेरी</item>
-        <item>म्यानारिन</item>
-        <item>गुवा</item>
-        <item>तरबूज</item>
-        <item>अनानास</item>
-        <item>
-केला</item>
-        <item>
-स्ट्रबेरी</item>
-        <item>पपयाया</item>
-        <item>नारियल</item>
-        <item>
-रास्पबेरी</item>
-        <item>
-नींबू</item>
-        <item>अनार
-</item>
-        <item>
-किवी</item>
-        <item>मंगो</item>
-        <item>दुरियन</item>
+        <item>apple</item>
+        <item>orange</item>
+        <item>pear</item>
+        <item>peach</item>
+        <item>grapefruit</item>
+        <item>cherry</item>
+        <item>mandarin</item>
+        <item>guava</item>
+        <item>watermelon</item>
+        <item>pineapple</item>
+        <item>banana</item>
+        <item>strawberry</item>
+        <item>papaya</item>
+        <item>coconut</item>
+        <item>raspberry</item>
+        <item>lemon</item>
+        <item>fig</item>
+        <item>pomegranate</item>
+        <item>kiwi</item>
+        <item>mango</item>
+        <item>durian</item>
     </string-array>
     <string-array name="objects_array">
-        <item>
-कार</item>
-        <item>
-ट्रक</item>
-        <item>बल</item>
-        <item>साइकल</item>
-        <item>पुस्तक</item>
-        <item>बेलुन</item>
-        <item>कलम</item>
-        <item>फोन</item>
-        <item>खिलौना</item>
-        <item>गिटार</item>
-        <item>
-पियानो</item>
-        <item>तकिया</item>
-        <item>
-ओछ्यान</item>
-        <item>
-कालीन</item>
-        <item>तालिका</item>
-        <item>फ्रिज</item>
-        <item>
-शर्ट</item>
-        <item>
-पैंट</item>
-        <item>
-टोपी</item>
+        <item>car</item>
+        <item>truck</item>
+        <item>ball</item>
+        <item>bicycle</item>
+        <item>book</item>
+        <item>balloon</item>
+        <item>pen</item>
+        <item>phone</item>
+        <item>toy</item>
+        <item>guitar</item>
+        <item>piano</item>
+        <item>pillow</item>
+        <item>bed</item>
+        <item>carpet</item>
+        <item>table</item>
+        <item>fridge</item>
+        <item>shirt</item>
+        <item>pants</item>
+        <item>hat</item>
     </string-array>
 
 </resources>

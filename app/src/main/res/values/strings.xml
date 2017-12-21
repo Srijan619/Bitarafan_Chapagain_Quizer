@@ -53,7 +53,7 @@
     <string name="colors_gold">gold</string>
     <string name="colors_silver">silver</string>
     <string name="colors_cream">cream</string>
-    <string name="colors_">cyan</string>
+    <string name="colors_cyan">cyan</string>
 
     <string name="fruits_apple">apple</string>
     <string name="fruits_orange">orange</string>
@@ -65,8 +65,8 @@
     <string name="fruits_passionfruit">passionfruit</string>
     <string name="fruits_cherry">cherry</string>
     <string name="fruits_grapes">grapes</string>
-    <string name="fruits_pulm">pulm</string>
-    <string name="fruits_mandarine">mandarine</string>
+    <string name="fruits_plum">plum</string>
+    <string name="fruits_mandarin">mandarin</string>
     <string name="fruits_guava">guava</string>
     <string name="fruits_watermelon">watermelon</string>
     <string name="fruits_melon">melon</string>
@@ -102,7 +102,7 @@
     <string name="objects_shirt">shirt</string>
     <string name="objects_pants">pants</string>
     <string name="objects_hat">hat</string>
-
+    <string name="objects_guitar">guitar</string>
 
     <string-array name="animals_array">
         <item>sheep</item>
@@ -161,7 +161,7 @@
         <item>peach</item>
         <item>grapefruit</item>
         <item>cherry</item>
-        <item>mandarine</item>
+        <item>mandarin</item>
         <item>guava</item>
         <item>watermelon</item>
         <item>pineapple</item>
@@ -171,6 +171,7 @@
         <item>coconut</item>
         <item>raspberry</item>
         <item>lemon</item>
+        <item>fig</item>
         <item>pomegranate</item>
         <item>kiwi</item>
         <item>mango</item>

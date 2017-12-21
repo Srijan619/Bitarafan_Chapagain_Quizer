@@ -36,6 +36,7 @@ public class PictureFragment extends Fragment {
     *   Output:     ImageView updated
     */
     public void changePicture(int drawable_id){
+        Log.d(TAG, "changePicture: setting pic ID: " + drawable_id);
         ques_picture.setImageDrawable(getResources().getDrawable(drawable_id));
     }
 }

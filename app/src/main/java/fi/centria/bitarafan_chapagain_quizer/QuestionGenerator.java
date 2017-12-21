@@ -43,6 +43,7 @@ public class QuestionGenerator {
             while (wordsAsked.contains(wordToAsk));
             newQuestion.add(wordToAsk);     //index 0 of newQuestion List contains the answer to question
             wordsAsked.add(wordToAsk);
+            Log.d(TAG, "questionToAsk: " + wordToAsk);
             while (newQuestion.size() < 4) {
                 do {
                     wordToAsk = getRandomWord();
