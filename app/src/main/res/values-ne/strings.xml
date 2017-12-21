@@ -132,5 +132,94 @@
         <item>
 टोपी</item>
     </string-array>
+    <string name="animals_sheep">भेडा</string>
+    <string name="animals_cat">बिरालो</string>
+    <string name="animals_dog">कुकुर</string>
+    <string name="animals_camel">ऊल</string>
+    <string name="animals_crocodile">मकवानपुर</string>
+    <string name="animals_polarbear">ध्रुवीय भालु</string>
+    <string name="animals_cow">्गाई</string>
+    <string name="animals_horse">घोडा</string>
+    <string name="animals_pig">सुँगुर</string>
+    <string name="animals_elephant">हात्ती</string>
+    <string name="animals_bear">भाडा</string>
+    <string name="animals_giraffe">जिराफ</string>
+    <string name="animals_goose">हंस</string>
+    <string name="animals_hen">हेन</string>
+    <string name="animals_fox">फक्स</string>
+    <string name="animals_wolf">ब्वाँसो</string>
+    <string name="animals_elk">एलक</string>
+    <string name="animals_mouse">माउस</string>
+    <string name="animals_frog">भ्यागुतो</string>
+    <string name="animals_kangaroo">कंगारू</string>
+    <string name="animals_ant">आँट</string>
+    <string name="animals_owl">उल्लू</string>
+    <string name="animals_deer">हिरण</string>
+    <string name="animals_turtle">कछुआ</string>
+    <string name="animals_bee">मधुमक्खी</string>
+    <string name="animals_worm">वोर्म</string>
+    <string name="animals_monkey">बंदर</string>
+    <string name="animals_rabbit">खरगोश</string>
+    <string name="animals_hippo">हिप्पो</string>
+    <string name="animals_fly">उड</string>
+    <string name="animals_mosquito">मच्छर</string>
+    <string name="animals_butterfly">तितली</string>
+
+    <string name="colors_red">red</string>
+    <string name="colors_orange">orange</string>
+    <string name="colors_yellow">yellow</string>
+    <string name="colors_green">green</string>
+    <string name="colors_blue">blue</string>
+    <string name="colors_pink">pink</string>
+    <string name="colors_purple">purple</string>
+    <string name="colors_brown">brown</string>
+    <string name="colors_white">white</string>
+    <string name="colors_black">black</string>
+    <string name="colors_gold">gold</string>
+    <string name="colors_silver">silver</string>
+    <string name="colors_cream">cream</string>
+    <string name="colors_cyan">cyan</string>
+
+    <string name="fruits_apple">apple</string>
+    <string name="fruits_orange">orange</string>
+    <string name="fruits_pear">pear</string>
+    <string name="fruits_peach">peach</string>
+    <string name="fruits_grapefruit">grapefruit</string>
+    <string name="fruits_cherry">cherry</string>
+    <string name="fruits_mandarine">mandarine</string>
+    <string name="fruits_guava">guava</string>
+    <string name="fruits_watermelon">watermelon</string>
+    <string name="fruits_pineapple">pineapple</string>
+    <string name="fruits_banana">banana</string>
+    <string name="fruits_strawberry">strawberry</string>
+    <string name="fruits_papaya">papaya</string>
+    <string name="fruits_coconut">coconut</string>
+    <string name="fruits_raspberry">raspberry</string>
+    <string name="fruits_lemon">lemon</string>
+    <string name="fruits_pomegranate">pomegranate</string>
+    <string name="fruits_kiwi">kiwi</string>
+    <string name="fruits_mango">mango</string>
+    <string name="fruits_durian">durian</string>
+
+    <string name="objects_car">car</string>
+    <string name="objects_truck">truck</string>
+    <string name="objects_ball">ball</string>
+    <string name="objects_bicycle">bicycle</string>
+    <string name="objects_book">book</string>
+    <string name="objects_balloon">balloon</string>
+    <string name="objects_pen">pen</string>
+    <string name="objects_phone">phone</string>
+    <string name="objects_toy">toy</string>
+    <string name="objects_piano">piano</string>
+    <string name="objects_pillow">pillow</string>
+    <string name="objects_bed">bed</string>
+    <string name="objects_carpet">carpet</string>
+    <string name="objects_table">table</string>
+    <string name="objects_fridge">fridge</string>
+    <string name="objects_shirt">shirt</string>
+    <string name="objects_pants">pants</string>
+    <string name="objects_hat">hat</string>
+
+
 
 </resources>
