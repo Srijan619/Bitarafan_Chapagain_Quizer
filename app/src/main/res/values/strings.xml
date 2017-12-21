@@ -61,7 +61,13 @@
     <string name="fruits_peach">peach</string>
     <string name="fruits_grapefruit">grapefruit</string>
     <string name="fruits_cherry">cherry</string>
+<<<<<<< HEAD
     <string name="fruits_mandarine">mandarine</string>
+=======
+    <string name="fruits_grapes">grapes</string>
+    <string name="fruits_plum">plum</string>
+    <string name="fruits_mandarin">mandarin</string>
+>>>>>>> 8d3de62b964aa367a44e4cf6c74441692e0bcfcd
     <string name="fruits_guava">guava</string>
     <string name="fruits_watermelon">watermelon</string>
     <string name="fruits_pineapple">pineapple</string>

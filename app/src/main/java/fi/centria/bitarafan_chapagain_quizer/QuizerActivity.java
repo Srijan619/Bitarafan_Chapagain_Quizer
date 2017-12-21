@@ -39,7 +39,12 @@ public class QuizerActivity extends Activity
         ansFrag = (AnswerFragment) manager.findFragmentById(R.id.ansFrag);
         Bundle extra = getIntent().getExtras();
         category = extra.getString("category");
+<<<<<<< HEAD
         if (category != null) {
+=======
+        Log.d(TAG, "onCreate: " + category);
+        if (category != null){
+>>>>>>> 8d3de62b964aa367a44e4cf6c74441692e0bcfcd
             questionGenerator = new QuestionGenerator(getApplicationContext(), category);
         }
         setNewQuestion();
@@ -48,10 +53,16 @@ public class QuizerActivity extends Activity
 
     private void setNewQuestion() {
         choices = questionGenerator.questionToAsk();
+<<<<<<< HEAD
         if (choices != null) {
             picFrag.changePicture(GetIdentifier(category + "_" + choices.get(0), "drawable"));
+=======
+        Log.d(TAG, "setNewQuestion: " + choices.get(0));
+
+        if (choices != null){
+            picFrag.changePicture(GetIdentifier(category + "_" + choices.get(0),"drawable"));
+>>>>>>> 8d3de62b964aa367a44e4cf6c74441692e0bcfcd
             answerWord = getStringLocale(choices.get(0));
-            Log.d(TAG, "setNewQuestion: " + choices.get(0));
             Collections.shuffle(choices);
             ansFrag.setAnswers(localizeChoices(choices));
         } else {
